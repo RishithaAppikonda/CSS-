@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mouseover Event Handling Example</title>
+<style>
+    .button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<button id="myButton" class="button">Hover Over Me</button>
+
+<script>
+    // Get reference to the button element
+    var button = document.getElementById('myButton');
+
+    // Add mouseover event listener to the button
+    button.addEventListener('mouseover', function() {
+        button.style.backgroundColor = 'lightblue';
+    });
+
+    // Add mouseout event listener to the button
+    button.addEventListener('mouseout', function() {
+        button.style.backgroundColor = ''; // Revert to default background color
+    });
+</script>
+
+</body>
+</html>

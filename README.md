@@ -1,0 +1,5 @@
+CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation and layout of a webpage. It controls how HTML elements are displayed on the screen, including their colors, fonts, spacing, sizes, and overall design. CSS allows web developers to separate the content (HTML) from the visual design, making websites more flexible, consistent, and easier to maintain.
+
+CSS works by applying styles through selectors and properties. For example, you can change the color of text, set a background image, adjust margins and padding, or create responsive layouts that adapt to different screen sizes. There are three ways to include CSS in a webpage: inline CSS (within an HTML tag), internal CSS (inside the <style> tag in the HTML file), and external CSS (using a separate .css file linked to the HTML).
+
+Modern CSS also supports features like Flexbox and Grid for advanced layout designs, animations, media queries for responsiveness, and variables for reusability. Overall, CSS is an essential technology that enhances user experience by making web pages visually appealing, structured, and interactive.
